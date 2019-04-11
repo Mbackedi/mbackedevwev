@@ -1,0 +1,207 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	
+	margin: 20px auto;
+	width: 80%;
+    height: 500px;
+   
+	
+}
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+nav > ul > li{
+	float: left;
+}
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+nav{
+	width: 100%;
+	
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+.submenu{
+visibility: hidden;
+}
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+	visibility: visible;
+
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+.menu-accueil:hover{
+	border-top: 5px solid teal;
+	background-color: aquamarine;
+}
+.menu-cours:hover{
+  border-top: 5px solid salmon;
+  background-color: sandybrown;
+}
+.menu-contacts:hover{
+	border-top: 5px solid darkorange;
+	background-color: bisque;
+}
+.menu-info:hover{
+	border-top: 5px solid red;
+	background-color: rosybrown;
+}
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+.menu-accueil .submenu{
+	background-color: greenyellow;
+}
+.menu-cours .submenu{
+	background-color: red;
+}
+.menu-contacts .submenu{
+	background-color: yellow;
+}
+.submenu li:hover a{
+	color: crimson;
+	font-weight: bold;
+}
+.menu-accueil .submenu li:hover{
+	background-color: chartreuse;
+}
+.menu-cours .submenu li:hover{
+	background-color: goldenrod;
+}
+.menu-contacts .submenu li:hover{
+	background-color: darkorange;
+}
+.logo{
+	height: 50px; 
+	margin: auto;
+	border: 1px solid	 black;
+	width: 100%;
+	
+}
+
+.menu{
+	border: 1px solid black;
+	height: 50px;
+	width: 100%;
+	background: linear-gradient(teal,gray);
+	
+}
+
+.menu ul{
+    display: block;
+   
+}
+.menu ul li{   
+    display: inline-block;
+    width: 230px; 
+    
+}
+.sous_menu{
+	display: none;
+}
+a{
+	display: inline-block;
+}
+
+
+.milieu{
+	margin: 20px auto;
+	width: 100%;
+	height: 300px;
+
+}
+.gauche{
+	margin: auto;
+	float: left;
+	clear: both;
+    border: 1px solid black;
+	width: 50%;
+	height: 300px;
+	margin-top: -150px; 
+	background-color: aqua;
+}
+.droit{
+	margin: auto;
+	 float: right;
+	 border: 1px solid black;
+	width: 49%;
+	height: 149px;
+	margin-top: -150px; 
+	background-color: burlywood;
+
+}
+.droit1{
+	margin: auto;
+	 float: right;
+	 border: 1px solid black;
+	width: 49%;
+	height: 149px;
+	background-color: chocolate;
+	
+}
+.bas{
+	
+	height: 100px;
+	width: 100%;
+	margin-top: -20px;
+}
+.G{
+	float: left;
+     border: 1px solid black;
+	width: 33%;
+	height: 48px;
+	background-color: dodgerblue;
+}
+.D{
+	 float: right;
+     border: 1px solid black;
+	 width: 34%;
+	 height: 48px;
+	 margin-top: -50px;
+	 background-color: blue;
+}
+.M{
+	float: left;
+     border: 1px solid black;
+	width: 33%;
+	height: 48px;
+	background-color: cadetblue;
+}
